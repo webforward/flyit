@@ -77,6 +77,7 @@ class _LiveViewState extends State<LiveView> {
                 onMapCreated: (GoogleMapController controller) {
                   _controller.complete(controller);
                 },
+
               ),
             ),
           ],
